@@ -1,0 +1,139 @@
+body {
+    background-color: antiquewhite;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 25px;
+    background-color: #fff;
+    margin: clamp(30px, 15vh, 200px) auto;
+    width: clamp(200px, 65vw, 800px);
+    min-height: 1750px;
+    border-radius: 15px;
+}
+
+.header {
+    width: clamp(200px, 80vw, 700);
+    height: auto;
+    justify-content: center;
+}
+
+.omelette-img {
+    width: 100%;
+    display: block;
+    border-radius: 15px;
+}
+
+.titulo {
+    font-size: 2.5rem;
+    font-family: "Outfitmedium";
+    font-weight: 900;
+    margin-bottom: 0;
+}
+
+.descripcion {
+    font-family: 'Outfitlight';
+    font-weight: 300;
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+.preptime {
+    background-color:#82b2;
+    border-radius: 15px;
+    box-sizing: border-box;
+    padding: 10px 30px;
+}
+
+.preptime-head {
+    font-family: 'Outfitmedium';
+    color: #84a;
+}
+
+.bold {
+    font-family:'Outfitmedium';
+    font-weight: 500;
+}
+
+.finita {
+    font-family: 'Outfitlight';
+    font-size: 1rem;
+    font-width: 100;
+    margin-bottom: 10px;
+}
+
+.preptime-ul {
+    margin-left: 30px;
+    padding-left: 50px;
+}
+
+.ingredients-head {
+    font-family: 'Outfitmedium';
+    font-size: 1.8rem;
+    color: #b37d3f;
+}
+
+.ingredients-li {
+    font-family: 'Outfitlight';
+    margin-bottom: 15px;
+}
+
+.division-1 {
+    margin: 30px 15px;
+    opacity: 0.4;
+}
+
+.nutrition {
+    font-family: 'Outfitmedium';
+    font-size: 1.8rem;
+    color: #b37d3f;
+}
+
+.calorias {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+}
+
+.calorias-tab {
+    font-family: 'Outfitlight';
+    margin: 5px 0;
+    margin-left: 50px;
+    font-size: 1.1rem;
+}
+
+.calorias-tab-derecha {
+    color: #b37d3f;
+    font-family: 'Outfitmedium';
+    margin: 5px 0;
+}
+
+.divisor-2 {
+    margin: 10px 15px;
+    opacity: 0.4;
+}
+
+@media (max-width: 480px){
+    body {
+        margin: 0;
+    }
+    .container{
+        margin: 0;
+        padding: 0;
+        width: 100vw;
+        border-radius: 0;
+        overflow-x: 0;
+        gap: 0;
+    }
+
+    .omelette-img {
+        border-radius: 0;
+    }
+
+    .recipe {
+        padding: 20px;
+    }
+}
