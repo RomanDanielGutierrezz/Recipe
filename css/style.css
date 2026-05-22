@@ -76,6 +76,11 @@ body {
     color: #b37d3f;
 }
 
+.ingredients-head:hover, .nutrition:hover {
+    cursor: default;
+    filter: brightness(1.2);
+}
+
 .ingredients-li {
     font-family: 'Outfitlight';
     margin-bottom: 15px;
